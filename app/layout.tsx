@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="en">
 
       <body
-          style={{direction:"rtl"}}
+          style={{direction:"rtl",backgroundColor:"#F9FAFF"}}
 
         className={`${geistSans.variable} ${geistMono.variable} overflow-hidden antialiased`}
       >
