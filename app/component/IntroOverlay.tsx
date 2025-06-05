@@ -80,7 +80,7 @@ export default function IntroOverlay() {
             className="bg-white/60 backdrop-blur-xl px-8 py-4 rounded-2xl shadow-xl "
           >
             <h1 className="text-4xl md:text-6xl font-extrabold text-[#FDC435] tracking-tight">
-              Welcome!
+              Welcome!!
             </h1>
           </motion.div>
         </motion.div>
