@@ -1,13 +1,18 @@
-
 import About from "@/app/component/About";
+import IntroOverlay from "@/app/component/IntroOverlay";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] bg-[#F9FAFF] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20  font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-<About/>
-
-      </main>
-    </div>
+    <>
+      <IntroOverlay />
+      <div className="bg-[#F9FAFF] py-0 flex flex-col gap-20 items-center justify-end px-8 sm:px-20 font-[family-name:var(--font-geist-sans)]">
+        <div className="w-full h-[300px]"></div>
+        <About />
+        <div className="w-full h-[200px] bg-amber-900"></div>
+        <div className="w-full h-[200px] bg-amber-900"></div>
+        <div className="w-full h-[200px] bg-amber-900"></div>
+        <div className="w-full h-[200px] bg-amber-900"></div>
+      </div>
+    </>
   );
 }

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/app/component/Header";
+import TouchFlash from "./component/ScroolFlashIcon";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,15 +24,22 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+
+
+
+
+
   return (
     <html lang="en">
 
       <body
           style={{direction:"rtl",backgroundColor:"#F9FAFF"}}
 
-        className={`${geistSans.variable} ${geistMono.variable} overflow-hidden antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} overflow-x-hidden antialiased`}
       >
 <Header/>
+        <TouchFlash />
         {children}
       </body>
     </html>
