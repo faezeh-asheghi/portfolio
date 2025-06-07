@@ -63,7 +63,7 @@ style={{ wordSpacing: '0.1rem' }}
   transition={{ duration: 0.8 }}
   className="lg:w-1/3 text-justify lg:text-2xl text-sm md:text-2xl font-medium mb-4 lg:leading-7 md:leading-7 text-[#828282]"
 >
-  Short text with details about youe, what you do or your professional career. You can add more information on the about page.
+  Short text with details about you, what you do or your professional career. You can add more information on the about page.
 </motion.h1>
 <div className="flex flex-row mt-5 gap-2">
    <motion.button
