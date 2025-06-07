@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/app/component/Header";
 import TouchFlash from "./component/ScroolFlashIcon";
+import SmoothScroll from "@/app/component/SmoothScroll";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -38,10 +39,12 @@ export default function RootLayout({
 
         className={`${geistSans.variable} ${geistMono.variable} overflow-x-hidden antialiased`}
       >
+      <SmoothScroll>
 <Header/>
         <TouchFlash />
-        {children}
+        {children}    </SmoothScroll>
       </body>
+
     </html>
   );
 }
