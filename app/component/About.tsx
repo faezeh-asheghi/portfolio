@@ -31,7 +31,8 @@ export default function About() {
 
 
 <div className="scroll-y-hidden flex flex-row justify-between w-full">
-<Image className={"absolute top-0 right-0 z-0"} width={600} height={400}  src={"/about.png"} alt={"logo"} />
+
+<Image className={"absolute top-0 right-0  z-0"} width={600} height={400}  src={"/about.png"} alt={"logo"} />
    
     <div className={'absolute lg:top-10  top-5 lg:right-0  right-0 z-1 lg:scale-120 md:scale-75 scale-85 '}>
         {View}
