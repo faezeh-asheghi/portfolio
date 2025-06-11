@@ -7,7 +7,7 @@ export default function Projects() {
 
 
     return (
-       <div className={"flex flex-col gap-10"}>
+       <div className={"flex flex-col gap-5"}>
            <motion.h1 className="text-3xl md:text-5xl font-bold text-left ml-35 lg:text-left">
            projects
            </motion.h1>

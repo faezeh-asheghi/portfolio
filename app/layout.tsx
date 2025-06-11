@@ -35,13 +35,13 @@ export default function RootLayout({
     <html lang="en">
 
       <body
-          style={{direction:"rtl",backgroundColor:"#F9FAFF"}}
+          style={{backgroundColor:"#292929",overflowInline:"hidden"}}
 
-        className={`${geistSans.variable} ${geistMono.variable} overflow-x-hidden antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} overflow-x-hidden-hidden lg:w-1/2 sm:w-1/2 overflow-x-hidden antialiased`}
       >
       <SmoothScroll>
-<Header/>
-        <TouchFlash />
+{/* <Header/> */}
+        {/* <TouchFlash /> */}
         {children}    </SmoothScroll>
       </body>
 
