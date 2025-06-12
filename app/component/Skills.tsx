@@ -126,7 +126,7 @@ export default function Skills() {
                 </div>
                 <div className=" w-[100px] h-[150px] bg-[#FDC434] rounded-full blur-3xl opacity-70 animate-pulse absolute right-3 top-0" />
 
-            </div>
+vvc            </div>
         </div>
     );
 }
