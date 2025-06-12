@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/app/component/Header";
 import TouchFlash from "./component/ScroolFlashIcon";
 import SmoothScroll from "@/app/component/SmoothScroll";
+import ScrollButton from "./component/ScreoolBotton";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,9 +38,10 @@ export default function RootLayout({
       <body
           style={{backgroundColor:"#292929",overflowInline:"hidden"}}
 
-        className={`${geistSans.variable} ${geistMono.variable} overflow-x-hidden-hidden lg:w-1/2 sm:w-1/2 overflow-x-hidden antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} overflow-x-hidden-hidden  overflow-x-hidden antialiased`}
       >
       <SmoothScroll>
+         <ScrollButton />
 {/* <Header/> */}
         {/* <TouchFlash /> */}
         {children}    </SmoothScroll>
