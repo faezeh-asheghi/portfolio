@@ -1,6 +1,8 @@
 
 import AboutMe from "./component/AboutMe";
+import Experts from "./component/Experts";
 import ExperienceTimeline from "./component/Exprience";
+import Familar from "./component/Familar";
 import Welcome from "./component/Welcome";
 
 export default function Home() {
@@ -16,6 +18,8 @@ export default function Home() {
 <div className={"w-full h-[200px]"}></div> */}
 <Welcome/>
 <AboutMe/>
+<Experts/>
+<Familar/>
 <ExperienceTimeline/>
 <div className="w-full h-[600px]"></div>
 
