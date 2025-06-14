@@ -50,7 +50,7 @@ export default function Skills() {
 
                <div className="relative w-full">
   <motion.h1 className="text-3xl md:text-5xl font-bold text-left lg:text-left">
-    Skillsssssgf
+    Skillsssssgfssss
   </motion.h1>
 {/*<Image className="absolute left-5 top-30" width={100} height={30}  src={"/NextjsImage.png"} alt={"logo"}/>*/}
 
