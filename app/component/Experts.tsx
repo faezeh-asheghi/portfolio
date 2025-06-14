@@ -9,7 +9,7 @@ export default function Experts() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, ease: "easeIn" }}
       viewport={{ once: true, amount: 0.2 }}
-      className=" h-full  text-white w-full flex flex-col items-start "
+      className=" h-full   text-white w-full flex flex-col items-start "
     >
 
       <div className="w-full h-full">

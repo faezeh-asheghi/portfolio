@@ -44,7 +44,7 @@ export default function ExperienceTimeline() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, ease: "easeIn" }}
       viewport={{ once: true, amount: 0.2 }}
-      className="text-white"
+      className="text-white relative bottom-40"
     >
       <div className="flex flex-col md:flex-row gap-10">
         {/* Experience Section */}
